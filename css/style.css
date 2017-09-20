@@ -1,0 +1,50 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.flex-first {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.flex-second {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.flex-thirds {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.yellow {
+    background-color: #ffc000;
+    width: 300px;
+}
+
+.blue {
+    height: 200px;
+    background-color: #4472c4;
+}
+
+.green {
+    background-color: #70ad47;
+    height: 100px;
+}
+
+.red {
+    background-color: #ff2f2f;
+    width: 200px;
+}
+
+.white {
+    width: 100%;
+}
